@@ -6,7 +6,7 @@ import spock.lang.Specification
 import javax.inject.Inject
 
 @MicronautTest
-class HelloWorldSpec extends Specification {
+class Starter_AppSpec extends Specification {
 
     @Inject
     EmbeddedApplication<?> application
