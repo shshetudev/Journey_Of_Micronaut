@@ -1,6 +1,0 @@
-applicationType: default
-defaultPackage: com.shetu
-testFramework: spock
-sourceLanguage: java
-buildTool: gradle
-features: [ annotation-api, app-name, data, data-jdbc, flyway, gradle, http-client, java, java-application, jdbc-hikari, logback, management, mysql, netty-server, readme, shade, spock, testcontainers, yaml ]

@@ -1,11 +1,15 @@
+
 micronaut:
   application:
     name: starter_App
-datasources:
-  default:
-    url: jdbc:mysql://localhost:3306/user_management
-    driverClassName: com.mysql.cj.jdbc.Driver
-    username: root
-    password: 'Root1234&'
-    schema-generate: CREATE_DROP
-    dialect: MYSQL
+  server:
+    port: 8888
+#datasources:
+#  default:
+#    url: jdbc:mysql://localhost:3306/user_management
+#    driverClassName: com.mysql.cj.jdbc.Driver
+#    username: root
+#    password: 'Root1234&'
+#    schema-generate: CREATE_DROP
+#    dialect: MYSQL
+
