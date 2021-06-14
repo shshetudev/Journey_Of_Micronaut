@@ -16,4 +16,9 @@ class Starter_AppSpec extends Specification {
         application.running
     }
 
+    void 'test hello'(){
+        expect:
+        print('Hello World')
+    }
+
 }

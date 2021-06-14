@@ -22,6 +22,11 @@ public class HelloController {
     public Single<String> hello(String name){
         return Single.just("Hello " + name + "!");
     }
+
+    @Get("/hello-world")
+    public String helloWorld(){
+        return "Hello World";
+    }
 //    @Get(value = "/hello/{name}", produces = MediaType.TEXT_PLAIN)
 //    public String sayHi(String name) {
 //        return helloService.sayHi(name);

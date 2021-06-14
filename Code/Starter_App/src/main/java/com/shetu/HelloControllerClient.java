@@ -8,6 +8,9 @@ import javax.validation.constraints.NotBlank;
 
 @Client("/")
 public interface HelloControllerClient {
-   @Get("/hello/{name}")
+    @Get("/hello/hello-world")
+    String helloWorld();
+
+    @Get("/hello/{name}")
     Single<String> hello(@NotBlank String name);
 }
