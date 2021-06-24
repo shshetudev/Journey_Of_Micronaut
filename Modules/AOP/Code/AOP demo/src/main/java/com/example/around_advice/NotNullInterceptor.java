@@ -19,7 +19,7 @@ public class NotNullInterceptor implements MethodInterceptor<Object, Object> {
 
         // We can call context.proceed() multiple times, it will give method output as a result: "Hello shetuHello shetu"
         // Object result = "" + context.proceed() + context.proceed();
-
+        SimpleEvent simpleEvent = new SimpleEvent();
         Object result = context.proceed();
         Objects.requireNonNull(result, "Method illegally returned a null value: " + context.getDescription(true)
         );

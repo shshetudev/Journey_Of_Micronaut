@@ -1,0 +1,5 @@
+micronaut:
+  application:
+    name: microMeetCity
+  server:
+    port: 8888
