@@ -1,6 +1,7 @@
 package com.shetu.conditional_bean_demo.named_requires_creation;
 
 import io.micronaut.context.annotation.Factory;
+import io.micronaut.context.annotation.Requires;
 
 import javax.inject.Named;
 import javax.inject.Singleton;
@@ -18,5 +19,11 @@ public class EngineFactory {
   @Named("V12Engine")
   Engine v12Engine(CrankShaft crankShaft) {
     return new V12Engine(crankShaft);
+  }
+
+  @Singleton
+  @Requires(property = "name")
+  String name(){
+    return "shetu";
   }
 }

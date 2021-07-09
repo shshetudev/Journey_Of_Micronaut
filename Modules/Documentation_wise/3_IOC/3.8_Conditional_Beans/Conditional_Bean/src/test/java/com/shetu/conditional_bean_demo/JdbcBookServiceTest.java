@@ -48,4 +48,9 @@ public class JdbcBookServiceTest {
     Assertions.assertEquals("localhost:3000",dataSourceStr);
     Assertions.assertEquals("rakizo-iac",bucketName);
   }
+
+  @Test
+  void testName(){
+
+  }
 }
