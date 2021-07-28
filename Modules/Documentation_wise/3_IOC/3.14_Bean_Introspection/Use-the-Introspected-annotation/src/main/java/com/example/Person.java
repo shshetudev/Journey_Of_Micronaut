@@ -1,7 +1,9 @@
 package com.example;
 
+import com.example.annotation.Consumed;
 import io.micronaut.core.annotation.Introspected;
 
+@Consumed
 @Introspected
 public class Person {
   private String name;

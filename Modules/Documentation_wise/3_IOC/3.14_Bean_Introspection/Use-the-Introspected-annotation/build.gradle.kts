@@ -25,6 +25,10 @@ dependencies {
   implementation("javax.annotation:javax.annotation-api")
   runtimeOnly("ch.qos.logback:logback-classic")
   implementation("io.micronaut:micronaut-validation")
+  implementation("org.apache.commons:commons-lang3:3.0")
+// https://mvnrepository.com/artifact/org.assertj/assertj-core
+  testImplementation("org.assertj:assertj-core:3.19.0")
+
 
 }
 
