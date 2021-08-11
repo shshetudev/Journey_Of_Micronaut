@@ -1,20 +1,11 @@
 package com.example;
 
-import com.example.annotation.Consumed;
 import io.micronaut.core.annotation.Introspected;
 
-@Consumed
 @Introspected
-public class Person {
+public class Demo {
   private String name;
-  private int age = 20;
-  private Demo demo;
-  public Person() {
-  }
-
-  public Person(String name) {
-    this.name = name;
-  }
+  private int age;
 
   public String getName() {
     return name;
@@ -30,13 +21,5 @@ public class Person {
 
   public void setAge(int age) {
     this.age = age;
-  }
-
-  public Demo getDemo() {
-    return demo;
-  }
-
-  public void setDemo(Demo demo) {
-    this.demo = demo;
   }
 }
