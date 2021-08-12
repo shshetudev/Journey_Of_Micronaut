@@ -6,6 +6,7 @@ import io.micronaut.core.annotation.Introspected;
 public class Demo {
   private String name;
   private int age;
+  private Foo foo;
 
   public String getName() {
     return name;
@@ -21,5 +22,13 @@ public class Demo {
 
   public void setAge(int age) {
     this.age = age;
+  }
+
+  public Foo getFoo() {
+    return foo;
+  }
+
+  public void setFoo(Foo foo) {
+    this.foo = foo;
   }
 }
