@@ -21,8 +21,8 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 ext {
-    micronautVersion = "1.3.4"
-    micronautSpringVersion = "2.0.0"
+    micronautVersion = "3.0.0"
+    micronautSpringVersion = "4.0.0"
 }
 
 repositories {
@@ -39,7 +39,7 @@ ext['micronaut.spring.version'] = micronautSpringVersion
 dependencies {
     annotationProcessor "io.micronaut:micronaut-inject-java"
     annotationProcessor "io.micronaut:micronaut-validation"
-    annotationProcessor "io.micronaut.configuration:micronaut-openapi"
+//    annotationProcessor "io.micronaut.configuration:micronaut-openapi"
     annotationProcessor "io.micronaut.spring:micronaut-spring-boot-annotation"
     annotationProcessor "io.micronaut.spring:micronaut-spring-web-annotation"
     testAnnotationProcessor "io.micronaut.spring:micronaut-spring-web-annotation"
@@ -51,7 +51,7 @@ dependencies {
     implementation("io.micronaut:micronaut-http-server")    
     implementation("io.micronaut:micronaut-http-server-netty")
 
-    implementation("io.micronaut:micronaut-views")
+//    implementation("io.micronaut:micronaut-views")
     implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
     implementation("io.micronaut.spring:micronaut-spring-web")
     runtimeOnly "ch.qos.logback:logback-classic:1.2.3"
