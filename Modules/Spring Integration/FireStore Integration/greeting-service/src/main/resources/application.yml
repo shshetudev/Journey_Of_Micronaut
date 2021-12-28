@@ -1,0 +1,15 @@
+#PROJECT_ID: rakizo-dev
+#PATH_TO_CREDENTIALS_FILE: /home/shetu/RK-JSON-file/ud-account-file.json
+micronaut:
+  application:
+    name: greeting-service
+greeting:
+  template: "Hola, %s!"
+
+spring:
+  cloud:
+    gcp:
+      firestore:
+        project-id: "rakizo-dev"
+        credentials:
+          location: "/home/shetu/RK-JSON-file/ud-account-file.json"
