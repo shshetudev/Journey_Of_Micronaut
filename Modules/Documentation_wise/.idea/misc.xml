@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/3_IOC/3.14_Bean_Introspection/Annotation-mapper" />
-    <file type="web" url="file://$PROJECT_DIR$/3_IOC/3.14_Bean_Introspection/Constructor-methods" />
-    <file type="web" url="file://$PROJECT_DIR$/3_IOC/3.14_Bean_Introspection/Static-constructor" />
-    <file type="web" url="file://$PROJECT_DIR$/3_IOC/3.14_Bean_Introspection/Use-the-Introspected-annotation" />
     <file type="web" url="file://$PROJECT_DIR$/3_IOC/3.5_Bean_Qualifiers/Primary_Secondary" />
     <file type="web" url="file://$PROJECT_DIR$/3_IOC/3.5_Bean_Qualifiers/Qualify_By_Annotation" />
     <file type="web" url="file://$PROJECT_DIR$/3_IOC/3.5_Bean_Qualifiers/Qualify_By_Name" />
@@ -16,6 +12,10 @@
     <file type="web" url="file://$PROJECT_DIR$/3_IOC/3.7_Bean Factories/Programmatically_Disabling_Bean" />
     <file type="web" url="file://$PROJECT_DIR$/3_IOC/3.7_Bean Factories/Simple_Bean_Factory_Demo" />
     <file type="web" url="file://$PROJECT_DIR$/3_IOC/3.8_Conditional_Beans/Conditional_Bean" />
+    <file type="web" url="file://$PROJECT_DIR$/3_IOC/Bean_Introspection/Annotation-mapper" />
+    <file type="web" url="file://$PROJECT_DIR$/3_IOC/Bean_Introspection/Constructor-methods" />
+    <file type="web" url="file://$PROJECT_DIR$/3_IOC/Bean_Introspection/Static-constructor" />
+    <file type="web" url="file://$PROJECT_DIR$/3_IOC/Bean_Introspection/Use-the-Introspected-annotation" />
     <file type="web" url="file://$PROJECT_DIR$/3_IOC/Defining_Beans" />
     <file type="web" url="file://$PROJECT_DIR$/4_Application_Configuration/4.1_The_Environment/MicronautApp" />
     <file type="web" url="file://$PROJECT_DIR$/4_Application_Configuration/4.2_Externalize_Configuration_wit_Property_Sources/MicronautApp" />
